@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">UniChat</string>
+
+    <string name="button_send_verify">Send code</string>
+    <string name="button_check_verify">Check code</string>
+
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+
+    <string name="author_one_real">Betrant Titus</string>
+    <string name="author_one_nick">nocturnalbeast</string>
+    <string name="author_two_real">Divyanshu Verma</string>
+    <string name="author_two_nick">divyanshuv</string>
+    <string name="author_three_real">Rohith Krishnan</string>
+    <string name="author_three_nick">rohithkr</string>
+
+    <string name="title_chats_activity">Chats</string>
+    <string name="title_libraries_activity">Libraries in this app</string>
+    <string name="title_edit_profile">Profile settings</string>
+    <string name="title_about_activity">About</string>
+
+    <string name="card_app_title">@string/app_name</string>
+    <string name="card_app_desc">© 2019 nocturnalbeast</string>
+    <string name="card_title_authors">Authors</string>
+    <string name="card_changelog_string">Changelog</string>
+    <string name="card_changelog_link">https://github.com/nocturnalbeast/unichat/CHANGELOG.md</string>
+    <string name="card_license_string">License</string>
+    <string name="card_license_webview_header">GNU GPL v3</string>
+    <string name="card_license_link">https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="card_repo_string">View/Fork on GitHub</string>
+    <string name="card_repo_link">https://github.com/nocturnalbeast/unichat</string>
+
+    <string name="onboarding_one_title">Welcome to UniChat!</string>
+    <string name="onboarding_one_description">UniChat is a modern chat application based on open-source technologies.
+    </string>
+    <string name="onboarding_two_title">Secure</string>
+    <string name="onboarding_two_description">UniChat uses strong authentication and encryption standards for securing
+        all your data.
+    </string>
+    <string name="onboarding_three_title">Easy Access</string>
+    <string name="onboarding_three_description">Users can easily log on to the platform using existing Google account
+        info.
+    </string>
+    <string name="onboarding_four_title">Open-source</string>
+    <string name="onboarding_four_description">The codebase is completely open-source and all supporting libraries are
+        as open-source as well!
+    </string>
+    <string name="onboarding_five_title">Backed by FireBase</string>
+    <string name="onboarding_five_description">UniChat uses FireBase for efficient storage and authentication.</string>
+
+    <string name="onboarding_ready_title">Let\'s go!</string>
+    <string name="onboarding_ready_description">That\'s about it. Let\'s dive in, shall we?</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_bio">Bio</string>
+    <string name="hint_enter_message">Enter message</string>
+
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+    <string name="button_send_email_verification">Send email verification</string>
+
+    <string name="error_required">Required.</string>
+    <string name="error_password_ts">Too small. Use 8 characters or more.</string>
+
+    <string name="logo_content_description">UniChat Logo</string>
+
+    <string name="register_progress">Creating an account…</string>
+    <string name="login_progress">Getting you in…</string>
+
+    <string name="exit_msg">Buh bye!</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

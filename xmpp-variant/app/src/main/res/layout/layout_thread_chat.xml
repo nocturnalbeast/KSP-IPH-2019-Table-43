@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/threadRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/threadContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/threadAvatar"
+            android:layout_width="@dimen/dialog_avatar_width"
+            android:layout_height="@dimen/dialog_avatar_height"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/threadName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="19dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="@color/dialog_message_text"
+            android:layout_toEndOf="@id/threadAvatar"
+            android:layout_toLeftOf="@id/threadDate"
+            android:layout_toRightOf="@id/threadAvatar"
+            android:layout_toStartOf="@id/threadDate"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="false"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/threadDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/dialog_date_text"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/threadName"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/threadAvatar"
+            android:layout_toRightOf="@id/threadAvatar"
+            android:id="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/threadMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/dialog_message_text"
+                android:textSize="15dp"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/threadUnreadBubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/threadAvatar"
+            android:layout_alignRight="@id/threadAvatar"
+            android:layout_alignTop="@id/threadAvatar"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/bubble_circle"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lines="1"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@+id/threadDividerContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="@dimen/dialog_divider_margin_left"
+            android:paddingStart="@dimen/dialog_divider_margin_left">
+
+            <View
+                android:id="@+id/threadDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dialog_divider"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

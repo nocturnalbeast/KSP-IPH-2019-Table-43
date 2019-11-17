@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF7043</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <color name="colorBackground">#141414</color>
+    <color name="colorCardBackground">#303030</color>
+    <color name="colorInputBackground">#202020</color>
+    <color name="colorForeground">#EAEAEA</color>
+
+    <color name="colorInputBoxDarker">#0A0A0A</color>
+    <color name="colorInputBoxDark">#0F0F0F</color>
+
+    <color name="colorGetStartedBtnGradientStart">@color/colorPrimary</color>
+    <color name="colorGetStartedBtnGradientEnd">@color/colorPrimaryDark</color>
+
+    <color name="colorTabIndicator">#D0D0D0</color>
+    <color name="colorIntroTitle">#EAEAEA</color>
+    <color name="colorIntroDescription">#E0E0E0</color>
+
+    <color name="colorVerified">#8BC34A</color>
+    <color name="colorNotVerified">#26C6DA</color>
+
+</resources>

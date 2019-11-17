@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/logo_content_description"
+            app:srcCompat="@mipmap/ic_bare" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="96dp"
+            android:fontFamily="@font/lobster_regular"
+            android:text="@string/app_name"
+            android:textColor="@color/colorForeground"
+            android:textSize="36sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phonenumber_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/spacemono_regular"
+            android:hint="@string/hint_phone_number"
+            android:paddingBottom="24dp"
+            android:textColorHint="@color/colorForeground"
+            app:errorTextColor="@color/colorPrimaryDark">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fieldPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorInputBackground"
+                android:inputType="phone"
+                android:fontFamily="@font/spacemono_regular"
+                android:textColor="@color/colorForeground" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/verificationcode_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/spacemono_regular"
+            android:hint="@string/hint_verification_code"
+            android:paddingBottom="24dp"
+            android:textColorHint="@color/colorForeground"
+            app:errorTextColor="@color/colorPrimaryDark" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fieldVerificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorInputBackground"
+                android:fontFamily="@font/spacemono_regular"
+                android:inputType="number"
+                android:textColor="@color/colorForeground" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/check_code_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/spacemono_bold"
+                android:text="@string/button_check_verify"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textColor="@color/colorInputBackground" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/send_code_btn"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/spacemono_bold"
+                android:text="@string/button_send_verify"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/colorAccent"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:max="100"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</LinearLayout>

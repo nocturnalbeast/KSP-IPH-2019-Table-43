@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.ThreadsActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_new_friend"
+        android:icon="@drawable/ic_add_contact"
+        android:title="Add new friend"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mark_all_read"
+        android:title="Mark all read"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_invite_friend"
+        android:title="Invite a friend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        app:showAsAction="never" />
+</menu>

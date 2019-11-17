@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="drawerArrowStyle">@style/MaterialDrawer.DrawerArrowStyle</item>
+        <item name="material_drawer_background">@color/colorCardBackground</item>
+        <item name="material_drawer_primary_text">@color/colorIntroTitle</item>
+        <item name="material_drawer_primary_icon">@color/colorIntroTitle</item>
+        <item name="material_drawer_secondary_text">@color/colorIntroDescription</item>
+        <item name="material_drawer_hint_text">@color/colorIntroDescription</item>
+        <item name="material_drawer_hint_icon">@color/colorIntroDescription</item>
+        <item name="material_drawer_divider">@color/colorCardBackground</item>
+        <item name="material_drawer_selected">@color/colorBackground</item>
+        <item name="material_drawer_selected_legacy">@color/colorBackground</item>
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+        <item name="material_drawer_header_selection_text">@color/colorForeground</item>
+        <item name="material_drawer_header_selection_subtext">@color/colorForeground</item>
+        <item name="material_drawer_legacy_style">false</item>
+    </style>
+
+    <style name="ActionBarAppTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+    <style name="LibrariesTheme" parent="AboutLibrariesTheme">
+        <item name="about_libraries_window_background">@color/colorBackground</item>
+        <item name="about_libraries_card">@color/colorCardBackground</item>
+        <item name="about_libraries_title_description">@color/colorForeground</item>
+        <item name="about_libraries_text_description">@color/colorForeground</item>
+        <item name="about_libraries_divider_description">@color/colorCardBackground</item>
+        <item name="about_libraries_title_openSource">@color/colorForeground</item>
+        <item name="about_libraries_text_openSource">@color/colorForeground</item>
+        <item name="about_libraries_special_button_openSource">@color/colorForeground</item>
+        <item name="about_libraries_dividerDark_openSource">@color/colorCardBackground</item>
+        <item name="about_libraries_dividerLight_openSource">@color/colorCardBackground</item>
+    </style>
+
+    <style name="AboutTheme" parent="Theme.Mal.Dark.LightActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="mal_card_background">@color/colorCardBackground</item>
+        <item name="android:textColorPrimary">@color/colorForeground</item>
+        <item name="mal_color_primary">@color/colorIntroTitle</item>
+        <item name="mal_color_secondary">@color/colorIntroDescription</item>
+    </style>
+
+</resources>
